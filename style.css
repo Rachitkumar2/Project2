@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'aeonik';
+  src: url('font/aeonik-regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+   font-family: aeonik;
+   
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#btns button{
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    gap: 2px;
+    cursor: pointer;
+
+}
+
+#intro {
+    height:50%;
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 54px 50px;
+     
+}
+
+#intro h1 {
+    font-size: 130px;
+    line-height: 120px;
+    letter-spacing: 2px;
+}
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+#place h3 , #place h4{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#hero-img img{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+}
